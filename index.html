@@ -1,0 +1,423 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/w3.css">
+
+    <link href="css/font-awsome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>
+      Shubham Singh|IITK
+    </title>
+  </head>
+  <script>
+    $(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip();
+
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#wrapper']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})</script>
+  
+  <style>
+      body {
+        position: relative;
+      }
+      .navbar {
+        margin-bottom: 0;
+        background-color: #2d2d30;
+        border: 0;
+        font-size: 11px !important;
+        letter-spacing: 4px;
+        opacity:0.9;
+      }
+
+      /* Add a gray color to all navbar links */
+      .navbar li a, .navbar .navbar-brand {
+        color: #d5d5d5 !important;
+      }
+
+      /* On hover, the links will turn white */
+      .navbar-nav li a:hover {
+        color: #fff !important;
+      }
+
+      /* The active link */
+      .navbar-nav li.active a {
+        color: #fff !important;
+        background-color:#29292c !important;
+      }
+
+      /* Remove border color from the collapsible button */
+      .navbar-default .navbar-toggle {
+        border-color: transparent;
+      }
+
+      /* Dropdown */
+      .open .dropdown-toggle {
+        color: #fff ;
+        background-color: #555 !important;
+      }
+
+      /* Dropdown links */
+      .dropdown-menu li a {
+        color: #000 !important;
+      }
+
+      /* On hover, the dropdown links will turn red */
+      .dropdown-menu li a:hover {
+        background-color: red !important;
+      }
+      #post{
+        font-family: 'Audiowide';font-size: 28px;
+        color:white;
+      }
+      body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+  }
+      #shubham {
+        font-family: "Courier New", Courier, monospace;font-size: 36px;
+        color:white;
+      }
+      body {
+        position: relative;
+      }
+      #wrapper{background: url(data/header-bg.jpg);
+        background-size:contain;
+
+        background-position:center center;
+        background-attachment:fixed;
+      }
+      .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+    .nav-tabs li a {
+      color: #777;
+  }
+    </style>
+
+  <body data-spy"scroll" data-target=".navbar" data-offset="90" style="position:relative;">
+    <nav class="navbar navbar-default navbar-fixed-top fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="data/logo1.png" width="100" height="70" alt="LOGO" style="margin-top:-20px"> </a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#wrapper">HOME</a></li>
+              <li><a href="#post">QUOTE</a></li>
+              <li><a href="#quote">ABOUT ME</a></li>
+              <li><a href="#education">EDUCATION</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="data/reso.html">Resources</a></li>
+                  <li><a href="#" title="UNDER CONSTRUCTION">Resume</a></li>
+                  <li><a href="#" title="UNDER CONSTRUCTION">Projects</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+      <div class="wrapper" id="wrapper">
+        <header>
+          <div class="banner row" id="banner">
+            <div class="parallax text-center">
+              <div class="parallax-pattern-overlay">
+                <div class="container text-center" style="height:800px;padding-top:170px;">
+                  <a href="#"><img src="data/web_pro.jpg" width="200" height="200" class="w3-circle slideanim" alt="WEB-PRO"></a>
+                  <h2 class="intro"><a href=""><div class="w3-container w3-lobster font-effect-brick-sign"><p class="w3-xxxlarge" font face="Sans-serif" id="shubham"><br><b>SHUBHAM SINGH</p></a></h2>
+                      <br> <h3 class="intro" id="post">MTH Fresher, IIT Kanpur</b></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+        <center><br>
+          <br>
+          <div class="w3-panel w3-card-4 w3-center w3-leftbar w3-border-black" style="width:50%" id="quote">
+            <span style="font-size:100px">&#10077;</span><br>
+            <p style="margin-top:-60px;font-size: 24px;">
+              <i><b>Take a Simple idea, and take it seriously.<br>-Charlie Munger-</b></i></p>
+        </div> </center>
+        <br>
+        <hr class="style15">
+        <br>
+        <div class="container-fluid text-center" id="aboutme">
+          <h3>About Me</h3>
+          <div class="slideanim"> <img src="data/mypic1.jpg" class="img-circle" alt="ME" width="350" height="350" id="hov"onmouseover="this.src='data/mypichover.jpg'" onmouseout="this.src='data/mypic1.jpg'" border="0">
+          </div> <h3>Hello World!!</h3>
+        </div>
+
+        <article class="row valign-wrapper" style="margin:auto;width:800px;padding:30px;">
+          <div class="col s12 m12 l12 offset-s0 offset-m0 offset-l0">
+            <div class="card grey darken-3 z-depth-1">
+              <div class="card-content white-text" style="font-size:24px;">
+                <p>
+                  Hey there, I am Shubham. I am a geek who is interested in stuffs related to computers or science fiction.
+                </p>
+                <br>
+                <p>
+                  I hail from Allahabad(U.P.). After years of slogging and hardwork, I finally managed to gain admission to the Indian Institute of Technology, Kanpur as an Undergratuate in Mathematics and Scientific Computing.
+                </p>
+                <br>
+                <p>
+                  I tend to waste my time reading books, watching movies, playing games, hanging out with friends, sleeping and enjoying life in general.
+                </p>
+                <br>
+                <p>
+                  My resume can be found <a href="" class="lime-text text-accent-4" alt="UNDER CONSTRUCTION" title="UNDER CONSTRUCTION" >here</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <hr class="style15">
+        <br><br>
+        <div class="container-fluid" style="padding-left:20px;width : 1000px;" id="education">
+          <div class="w3-card-4">
+
+            <header class="w3-container w3-dark-grey">
+              <h1><u>Education:</h1></u>
+            </header>
+
+            <div class="w3-container"  style="margin:2px;padding:20px;">
+
+              <div class="container" style="width:900px">
+                <div class="panel-group" id="accordion">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Undergraduate</a>
+                      </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <h3><a href="http://www.iitk.ac.in/" target="_blank">Indian Institute of Technology, Kanpur</a></h3>
+                        Bachelor of Science<br>
+                        Mathematics and Scientific Computing<br>
+                        <a href="http://www.iitk.ac.in/math/" target="_blank">Department of Mathematics and Statistics</a><br>
+
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Relevant Courses Undertaken</a>
+                          </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse in">
+                          <div class="panel-body">
+                            <table class="table-hover" style="width:60%;">
+                              <tr>
+                                <td><b>Mathematics</b></td>
+                                <td>Mathematics I</td>
+                              </tr>
+                              <tr> <td><b>Computer Science</b></td>
+                                <td>Fundamentals to Computing</td>
+                              </tr>
+                            </table>
+                            <br>
+                            (**) - Courses in Progress
+                            <br>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">School</a>
+                      </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <h3>Class 12:</h3>
+                        <a href="http://www.jtgjschool.in">J.T. Golden Jubilee School, Allahabad</a><br>
+                        All India Senior School Certificate Examination (AISSCE) 2017<br>
+                        Central Board of Secondary Education (CBSE), Government of India<br>
+                        Roll number: 5619833<br>
+                        94.4%<br>
+                        <a href="http://www.jtgjschool.in/Achievements_TopperXII.aspx">Among School Toppers, Science Stream</a><br>
+                        <h3>Class 10:</h3>
+                        <a href="http://www.jtgjschool.in">J.T. Golden Jubilee School, Allahabad</a><br>
+                        Central Board of Secondary Education (CBSE), Government of India<br>
+                        Cummulative Grade Point Average: 10/10<br>
+
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+
+            <footer class="w3-container w3-dark--grey">
+              <h5>(**) in Progress</h5>
+            </footer>
+
+          </div>⋅
+        </div>
+
+
+        <style>
+          .bg-1 {
+            background: #2d2d30;
+            color: #bdbdbd;
+          }
+          .bg-1 h3 {color: #fff;}
+          .bg-1 p {font-style: italic;}
+          hr.style15 {
+            width:1500px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:20px;
+            margin-bottom:20px;
+            position:center;
+            border-top: 4px double #8c8b8b;
+            text-align: center;
+          }
+          hr.style15:after {
+            content: '\002655';
+            display: inline-block;
+            position: relative;
+            top: -15px;
+            padding: 0 10px;
+            background: #f0f0f0;
+            color: #8c8b8b;
+            font-size: 18px;
+          }
+
+          /* Add a dark background color to the footer */
+          footer {
+            background-color: #2d2d30;
+            color: #f5f5f5;
+            padding: 32px;
+          }
+
+          footer a {
+            color: #f5f5f5;
+          }
+
+          footer a:hover {
+            color: #777;
+            text-decoration: none;
+          }
+        </style>
+
+        <footer class="text-center">
+          <a class="up-arrow" href="#wrapper" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+          </a><br>
+
+
+          <script>
+            $(document).ready(function(){
+              // Initialize Tooltip
+              $('[data-toggle="tooltip"]').tooltip();
+            })
+          </script> 
+
+          <div class="bg-1" id="contact">
+            <div class="container" >
+              <h3 class="text-center">:Contact Me:</h3>
+              <p class="text-center">If you need</p>
+              <div class="row">
+                <div class="col-md-2 col-xs-4 md-margin-b-30">
+                  <h4>Location</h4>
+                  <a href="https://www.google.co.in/maps/place/D+Block,+Hall+5+-+Inner+Road,+Nankari,+Kalyanpur,+Kanpur,+Uttar+Pradesh+208016/@26.5102577,80.2280515,19z/data=!3m1!4b1!4m5!3m4!1s0x399c36ff1aa49017:0xd4d3e0c857456df5!8m2!3d26.5102586!4d80.2286031?dcr=0">Hall 5, IIT Kanpur, India</a>
+                </div>
+                <div class="col-md-2 col-xs-4 md-margin-b-30">
+                  <h4>Phone</h4>
+                  <a href="#">+91 9794842994</a>
+                  <br> <a href="#">+91 7355971185</a>
+                </div>
+                <div class="col-md-3 col-xs-4 md-margin-b-30">
+                  <h4>Email</h4>
+                  <a href="mailto:dhoni.singh094@gmail.com">dhoni.singh094@gmail.com</a>
+                  <br><a href="mailto:singhshu@iitk.ac.in">singhshu@iitk.ac.in</a>
+                </div>
+                <div class="col-md-2 col-xs-4 md-margin-b-30">
+                  <h4>Quora</h4>
+                  <a href="https://www.quora.com/profile/Shubham-Singh-1028">Shubham Singh</a>
+                </div>
+                <div class="col-md-2 col-xs-4 md-margin-b-30">
+                  <h4>Github</h4>
+                  <a href="https://www.github.com/shubhsherl">github.com/shubhsherl</a>
+                </div>
+                <br> 
+              </div>
+              <!-- <ul class="list-group">
+                <li class="list-group-item"><span class="glyphicons glyphicons-home"></span>Address: <a href="">D-213, Hall-5, IIT Kanpur</a></li>
+                <li class="list-group-item"><span class="glyphicons glyphicons-iphone"></span>Phone: +91-979842994</li>
+                <li class="list-group-item"><span class="glyphicon glyphicon-envelope"></span>Email:<a href="mailto:sighshu@iitk.ac.in">singhshu@iitk.ac.in</a></li>
+                <li class="list-group-item"><span class="social social-facebook"></span>Facebook:<a href="">Shubham Singh</a></li>
+                <li class="list-group-item"><span class="glyphicons glyphicons-sms"></span>Hangout:<a href="">Shubham094</a></li>
+              </ul>-->
+            </div>
+          </div><br>
+          <p>Copyright 2018|All Rights Reserved|Designed and Developed by <b>Shubham Singh</b></p>
+
+        </footer>
+
